@@ -73,31 +73,37 @@ li{
     /*border: 3px solid red;*/
     padding-left: 150px;
 }
+.containerleft{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+    padding-left: 20px;
+}
 .conatinerwhite{
     /*border: 3px solid orange;*/
     background-color: white;
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 400px;
     margin-bottom: 30px;
     border: 3px solid gray;
 }
 .headerimage{
     /*border: 3px solid navy;*/
     background-color: lightskyblue;
-    height: 60px;
+    height: 120px;
     vertical-align: top;
 }
 #profile1{
     border: 3px solid white;
-    height: 60px;
-    margin-top: 30px;
+    height: 120px;
+    margin-top: 40px;
     margin-left: 30px;
-    border-radius: 35px;
+    border-radius: 50%;
 }
 .cardbody{
-    margin-top: 25px;
+    margin-top: 50px;
     /*border: 3px solid rosybrown;*/
     display: flex;
     flex-direction: column;
@@ -107,81 +113,97 @@ li{
     padding-left: 20px;
 }
 h1{
-    font-size: 30px;
+    font-size: 40px;
 }
 h4{
-    font-size: 15px;
+    font-size: 25px;
 }
 p{ 
-    font-size: 10px;
+    font-size: 20px;
+    
 }
 
 .hipertext1{
-    padding-top: 10px;
+    padding-top: 30px;
     flex-direction: row;
-    color: black;
 }
 
 #mapicon{
-    height: 10px;
+    height: 20px;
 }
 
 #gearicon{
-    height: 10px;
+    height: 20px;
 }
 
 .educationinfo{
     /*border: 3px solid forestgreen;*/
-    width: 300px;
-    height: 75px;
+    width: 500px;
+    height: 200px;
 }
 .headereducation{
     /*border: 3px solid gold;*/
     background-color:dimgrey;
 }
 .education{
-    font-size: 15px;
+    font-size: 25px;
     color: white;
     margin-left: 25px;
 }
 .educationbody{
     border: 3px solid gray;
     padding-left: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .p1{
     font-weight: bold;
+    font-size: 20px;
 }
+.p2{
+    font-weight: lighter;
+    font-size: 15px;
+}
+.p3{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+                            /*LEFT*/
 .headerrequest{
     background-color: dimgrey;
     /*border: 3px solid orchid;*/
-    padding-top: 7px;
-    padding-bottom: 4px;
+    padding: 10px;
+    width: 300px;
+}
+.headerrequest2{
+    background-color: dimgrey;
+    /*border: 3px solid orchid;*/
+    padding: 10px;
+    width: 300px;
+    margin-top: 30px;
 }
 .connectioninfo{
+    border: 3px solid blue;
     padding-left: 20px;
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
 }
-.yourconnections2{
-    padding-left: 20px;
-    display: flex;
-    flex-direction: column;
-}
 .request{
-    font-size: 12px;
+    font-size: 20px;
     color: white;
     text-align: center;
 }
 .userrequest{
     border: 3px solid white;
-    height: 30px;
+    height: 50px;
     border-radius: 35px;
     margin-right: 20px;
 }
 .aceptdeny{
     border: 3px solid white;
-    height: 20px;
+    height: 40px;
     border-radius: 35px;
     margin-top: 5px;
 }
@@ -190,12 +212,34 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
     justify-content: center;
+    width: 313px;
+    height: 200px;
+}
+.requestbody2{
+    border: 3px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 313px;
+    height: 350px;
 }
 .requestofusers{
+    /*border: 3px solid purple;*/
     display: flex;
     flex-direction: row;
     align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 15px;
+}
+.holdpname{
+    display: flex;
+    flex-direction: row;
 }
 .namesreq{
     margin-top: 12px;
@@ -203,18 +247,23 @@ p{
 }
 .yourconnections{
     border: 3px solid white;
-    height: 30px;
+    height: 50px;
     border-radius: 35px;
     margin-right: 20px;
 }
+.block2lefts{
+    margin-top: 20px;
+    
+}
 .viewmore{
     border: 3px solid gray;
-    padding-right: 100px;
+    padding-right: 219px;
     font-family: 'Roboto', sans-serif;
     color: navy;
-    font-size: 10px;
+    font-size: 20px;
     padding-top: 2px;
     padding-bottom: 2px;
+    width: 
 }
 
 span{
@@ -223,4 +272,75 @@ span{
     color: black;
     font-weight: bold;
     padding: 3px;
+    font-size: 15px;
+    margin-left: 10px;
 }
+/*
+<div class="connectioninfo">
+                    <div class="headerrequest">
+                        <h1 class="request">
+                            <span>2</span> Connection Request
+                        </h1>
+                    </div>
+                    <div class="requestbody">
+                        <div class="requestofusers">
+                            <div class="holdpname">
+                                <img class="userrequest" src="./todd-s.jpg" alt="Todd E user photo">
+                                <p class="namesreq">
+                                    Todd E
+                                </p>
+                            </div>
+                            <div class="acceptDenyicons">
+                                <img class="aceptdeny" src="./accept-circle.png" alt="accept icon">
+                                <img class="aceptdeny" src="./close-circle.png" alt="close icon">
+                            </div>
+                        </div>
+                        <div class="requestofusers">
+                            <div class="holdpname">
+                                <img class="userrequest" src="./phil-s.jpg" alt="Phill K user photo">
+                                <p class="namesreq">
+                                    Phill K
+                                </p>
+                            </div>
+                            <div class="acceptDenyicons">
+                                <img class="aceptdeny" src="./accept-circle.png" alt="accept icon">
+                                <img class="aceptdeny" src="./close-circle.png" alt="close icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<div class="headerrequest">
+                        <h1 class="request">
+                            <span>+500</span> Your Connections
+                        </h1>
+                    </div>
+                    <div class="requestbody">
+                        <div class="requestofusers">
+                            <img class="yourconnections" src="./adrien-s.jpg" alt="Todd E user photo">
+                            <p class="namesreq">
+                                Adrien D
+                            </p>
+                        </div>
+                        <div class="requestofusers">
+                            <img class="yourconnections" src="./anne-s.jpg" alt="Todd E user photo">
+                            <p class="namesreq">
+                                Anne J
+                            </p>
+                        </div>
+                        <div class="requestofusers">
+                            <img class="yourconnections" src="./alayne-s.jpg" alt="Todd E user photo">
+                            <p class="namesreq">
+                                Alayne T
+                            </p>
+                        </div>
+                        <div class="requestofusers">
+                            <img class="yourconnections" src="./arry-s.jpg" alt="Todd E user photo">
+                            <p class="namesreq">
+                                Arry Y
+                            </p>
+                        </div>
+                    </div>
+                    <a class="viewmore" href="#">
+                        View More
+                    </a>*/
