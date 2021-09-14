@@ -76,7 +76,7 @@ li{
 .containerleft{
     display: flex;
     flex-direction: column;
-    border: 3px solid red;
+    /*border: 3px solid red;*/
     padding-left: 20px;
 }
 .conatinerwhite{
